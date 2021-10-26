@@ -51,7 +51,7 @@ export default function HeroSection(props) {
             >
                 <div className={classNames('relative', 'w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     <div className={classNames('flex', '-mx-4', sectionStyles.flexDirection ? mapFlexDirectionStyles(sectionStyles.flexDirection) : null)}>
-                        <div className="my-3 flex-1 px-4 w-full">
+                        <div className="my-3 flex-1 px-16 w-full">
                             {heroBody(props)}
                             {heroActions(props)}
                         </div>
