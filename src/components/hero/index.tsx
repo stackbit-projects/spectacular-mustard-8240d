@@ -20,7 +20,7 @@ export default function HeroSection(props) {
                 colors,
                 'flex',
                 'flex-col',
-                'px-4',
+                'px-16',
                 'sm:px-8',
                 'relative',
                 sectionStyles.margin,
