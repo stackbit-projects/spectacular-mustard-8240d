@@ -2,7 +2,7 @@ import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 import { getComponent } from '@stackbit/components';
-import { mapStylesToClassNames as mapStyles } from '@stackbit/components/utils/map-styles-to-class-names.ts';
+import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/utils/map-styles-to-class-names.ts';
 
 export default function HeroSection(props) {
     const colors = props.colors || 'colors-a';
